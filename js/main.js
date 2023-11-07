@@ -669,7 +669,8 @@ var animateReveal = function() {
 				offset: "-300%",
 			})
 			.setTween(tl2)
-			.addTo(controller)
+			.addTo(controller);
+
 			heroNum++;
 		});
 	}
