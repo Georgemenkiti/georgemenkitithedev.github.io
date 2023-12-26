@@ -60,8 +60,6 @@ var siteIstotope = function() {
   	var controller = new ScrollMagic.Controller();
 
   	var revealImg = $('.gsap-reveal-img');
-
-  	if ( revealImg.length ) {
   		var i = 0;
 			revealImg.each(function() {
 
@@ -100,7 +98,7 @@ var siteIstotope = function() {
 
 			});
 		}
-  })
+  )
 
   $('.js-filter').on('click', function(e) {
   	e.preventDefault();
